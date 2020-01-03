@@ -1,4 +1,4 @@
-export const servers = {
+/*export const servers = {
     iceServers: [
         { urls: "stun:stun01.sipphone.com" },
         { urls: "stun:stun.ekiga.net" },
@@ -35,4 +35,8 @@ export const servers = {
             username: "28224511:1379330808"
         }
     ]
+}*/
+
+export const servers = {
+    iceServers: [{urls: "stun:stun.1.google.com:19302"}]
 }
